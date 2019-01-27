@@ -1,0 +1,411 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+.container{
+   width: 100%;
+  max-width: 1173px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  margin-top:18px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.avatar{
+  width: 57px;
+height: 57px;
+background: url('https://pp.userapi.com/c846221/v846221516/1896b4/iM8VBZMLrac.jpg');
+  background-size: 100%;
+border-radius: 50%;
+
+}
+.menu__logo{
+  display: flex;
+  align-items: center;
+}
+.name{
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description{
+  margin-left: 9px;;
+}
+.description__small{
+	font-size: 12px;
+	color: #6a696b;
+}
+.menu_list{
+  display: flex;
+  align-items: center;
+}
+.menu_list a{
+  font-weight: 800;
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  margin-right: 34px;
+}
+.menu_button{
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+.menu_button{
+   
+  background-color: transparent;
+  
+  color: #2b2a2c;
+}
+.menu_button:hover{
+	transition:all .5s ease;
+  background-color: #2b2a2c ;
+  /*transition: color 1s ease;*/
+  color: white;
+	cursor: pointer;
+}
+.menu_list a {
+    display: inline-block;
+    color:#292c31;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+.menu_list a:hover {
+	
+    border-bottom: 3px solid #292c31;
+}
+.hero {
+	 width: 100%;
+	  max-width: 1173px;
+	  margin-left: auto;
+	  margin-right: auto;
+
+	padding-top: 100px;
+	padding-bottom: 112px;
+	 background: url('https://pp.userapi.com/c849528/v849528382/104225/UMRjygoPHLo.jpg') no-repeat bottom;
+
+
+}
+.hero-subtitle{
+	font-size: 32px;
+}
+.hero-title{
+	font-weight: 800;
+	font-size: 45px;
+	margin-top: 2px;
+	margin-bottom: 3px;
+}
+.hero-discription{
+	font-size: 18px;
+	color: #6a696b;
+}
+.hero-social{
+	margin-top: 35px;
+}
+.social{
+	display: inline-block;
+	height: 41px;
+	width: 41px;
+	margin-right: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 41px;
+	font-size: 23px;
+}
+.vk-bg{
+	background-color: #57adef;
+}
+.inst-bg{
+background-color: #135889;
+}
+.yt-bg{
+background-color: #1969ff;
+}
+.fa-bg{
+background-color: #3a5999;
+}
+.hero-buttons{
+	margin-top: 42px;
+}
+.button{
+	font-size: 16px;
+	font-weight: 800;
+	text-decoration: none;
+	background-color: #2c2b2c;
+	border-radius: 50px;
+	padding: 20px 34px;
+	display: inline-block;
+}
+.button-primary{
+	color: #fff;
+  margin-right: 17px;
+  margin-bottom: 12px;
+}
+.button-o{
+	background-color: transparent;
+	color: #6b6d6b;
+	border: 1px solid #6a696b;
+}
+.projects{
+	padding: 97px 0px;
+	}
+.project-card{
+	/*background-color: grey;*/
+	width: 370px;
+	height: 370px;
+	border-radius: 10px ;
+	overflow: hidden;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+	margin-bottom: 50px;
+}
+
+.project-card__image{
+	height: 300px;
+  border-bottom: 1px solid #959495;
+}
+.landing-page{
+	background: url('https://www.brightedge.com/sites/default/files/landing%20page%20content%20optimization.jpg') center;
+ background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-page2{
+	background: url('https://upartner.pro/datas/folio/b/45b67a6ddd5cff88.jpg') center;
+ background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page3{
+	background: url('http://vladmaxi.net/uploads/2013/06/Skachat-maket-sayta-PSD-dizayn-dlya-Mobile-Apps.jpg') center;
+background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page4{
+	background: url('https://pp.userapi.com/c849520/v849520435/116a2f/FqcExEyX-h0.jpg') no-repeat left;
+ background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page5{
+	background: url('https://pp.userapi.com/c849520/v849520435/116a40/UUm7XG4jWiQ.jpg') center;
+background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-category{
+	display: block;
+	font-size: 12px;
+	color: #959495;
+}
+.project-card__info{
+	padding: 13px 13px;
+}
+.project-title{
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-top: 10px;
+}
+.project-cards{
+	
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.me{
+	padding-top: 30px;
+}
+.me__foto__info img {
+	max-width: 100%;
+	width: 542px;
+	height: 606px;
+}
+.me__foto__info{
+	display: flex;
+	background: url('https://pp.userapi.com/c847221/v847221745/18108e/z_avpfGa7hE.jpg') no-repeat left  top;
+	height: 500px;
+}
+.info{
+	padding-left: 600px;
+	display: flex;
+	flex-direction: column;
+	padding-right: 100px;
+}
+.title__info{
+	text-transform: uppercase;
+	color: #2b2a2c;
+	font-weight: 800;
+	font-size: 45px;
+	padding-bottom: 35px;
+}
+.subtitle__info{
+	font-size: 12px;
+
+	color: #717072;
+	height: 250px;
+}
+.me-buttons{
+	padding-top: 25px;
+}
+.footer{
+	background: #2b2a2c;
+	padding: 20px 0px;
+	color: #8d8d8e;
+}
+.footer a{
+	color: #8d8d8e;
+	text-decoration: none;
+}
+.footer-info{
+	display: flex;
+	justify-content: space-between;
+}
+.footer-text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.copyright{
+	margin-right: 16px;
+	padding-right: 16px;
+	border-right: 1px solid  #413f41;
+	font-size: 14px;
+}
+.footer-social__link{
+	font-size: 20px;
+	margin-right: 16px;
+	
+}
+.footer-menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.footer-menu a{
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 30px;
+}
+.footer-button{
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  padding: 7px 23px;
+}
+@media(max-width: 1200px){
+  .container{
+    max-width: 965px;
+  }
+  .project-cards{
+	justify-content: space-around;
+	}
+  .me{
+	padding-top: 30px;
+}
+  .info{
+	padding-left: 500px;
+	display: flex;
+	flex-direction: column;
+	padding-right: 50px;
+}
+}
+
+@media(max-width: 992px){
+   .container{
+    max-width: 760px;
+  }
+}
+
+@media(max-width: 768px){
+  .container{
+    max-width: 80%;
+  }
+  .menu_list{
+    display: none;
+  }
+  .hero{
+    background: none;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .hero-subtitle{
+    font-size: 25px;
+  }
+  .hero-title{
+    font-size: 40px;
+  }
+  .hero-discription{
+    font-size: 17px;
+  }
+  .projects{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .me{
+    padding-top: 0px;
+  }
+  .title__info{
+    padding-bottom: 0px;
+  }
+  .project-cards{
+  justify-content: space-around;
+	}
+  .me{
+	padding-top: 30px;
+}
+  .button-o{
+    display: none;
+  }
+  .info{
+	padding-left: 500px;
+	display: flex;
+	flex-direction: column;
+    align-cotent: space-between;
+    flex-wrap: wrap;
+	padding-right: 0px;
+    height: 600px;
+}
+  
+  .me-buttons{
+    padding-top: 120px;
+  }
+  .project-card{
+	/*background-color: grey;*/
+	width: 300px;
+	height: 300px;
+	border-radius: 10px ;
+	overflow: hidden;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+	margin-bottom: 30px;
+}
+  .project-card__image{
+    height: 250px;}
+    .project-card__info{
+	padding: 5px 13px;
+}
+  .project-title{
+    margin-top: 5px;
+  }
+  .me__foto__info{
+	display: flex;
+	background: none;
+	height: 500px;
+}
+  .info{
+    padding-left: 0px;
+  }
+  }
+
